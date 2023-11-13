@@ -1,0 +1,11 @@
+.navbar{
+background-color: green;
+color: white;
+}
+.container{
+    width: 50%;
+    margin: 0 auto;
+    border: 1px solid gray;
+    height: 500px;
+    
+}
