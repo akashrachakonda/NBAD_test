@@ -92,7 +92,7 @@ const NavBar = () => {
                     key={index}
                   >
                     {item}
-                    <FaPlusCircle style={{ float: "right" }} />
+                    <FaPlusCircle className="FaPlusCircle" />
                   </button>
                 ))}
               </div>
@@ -117,7 +117,7 @@ const NavBar = () => {
                       >
                         {item.name}
                         <FaMinusCircle
-                          style={{ float: "right",cursor:'pointer' }}
+                          className="FaMinusCircle"
                           onClick={() => removeitems(item.name)}
                         />
                       </li>
