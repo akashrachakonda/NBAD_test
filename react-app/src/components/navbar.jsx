@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import "./navbar.css";
 import axios from "axios";
 import { GrGithub } from "react-icons/gr";
@@ -113,12 +113,11 @@ const NavBar = () => {
                   return item.count > 0 ? (
                     <div className="row" key={index}>
                       <li
-                        className="list-group-item"
-                        style={{ width: "78%", marginLeft: "10px" }}
+                        className="list-group-item cart-items"
                       >
                         {item.name}
                         <FaMinusCircle
-                          style={{ float: "right" }}
+                          style={{ float: "right",cursor:'pointer' }}
                           onClick={() => removeitems(item.name)}
                         />
                       </li>

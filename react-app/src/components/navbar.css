@@ -44,6 +44,10 @@
 }
 .badge-item {
   width: 17%;
+  @media screen and (min-width: 350px) and (max-width: 500px) {
+        text-align: center;
+        margin-left: 70px;
+  }
 }
 .badge-primary {
   background-color: #97cba1;
@@ -56,4 +60,8 @@
 }
 .badge-danger {
   width: 33%;
+}
+.cart-items{
+    width: 78%;
+     margin-left: 10px;
 }
